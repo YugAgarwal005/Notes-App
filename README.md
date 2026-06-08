@@ -1,16 +1,79 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern application designed to help you instantly capture thoughts, jot down ideas, and keep your daily notes perfectly organized.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Check out the application in action: **[Notes App Live Demo](https://yugagarwal005.github.io/Notes-App/)**
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Instant Note-Taking:** Quickly capture your ideas and snippets without navigating through complex menus.
+* **Edit on the Fly:** Seamlessly modify, update, and refine your saved notes whenever inspiration strikes.
+* **Easy Decluttering:** Permanently delete notes you no longer need with a single click.
+* **Fully Responsive:** Enjoy a smooth, optimized reading and writing experience whether you are on a desktop, tablet, or smartphone.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **ReactJS** for building dynamic, component-based user interfaces.
+* **Tailwind CSS** for rapid, utility-first styling and responsive design.
+* **Vite** for fast development and optimized builds.
+
+## 📂 Repository Structure
+
+```text
+.
+├── public/               # Public assets
+├── src/                  # Source files
+│   ├── assets/           # Static assets (images, SVGs, etc.)
+│   ├── App.jsx           # Main application component
+│   ├── index.css         # Global styles combined with Tailwind
+│   └── main.jsx          # React entry point
+├── .gitignore            # Files and directories ignored by Git
+├── eslint.config.js      # ESLint configuration for code linting
+├── index.html            # Main HTML template
+├── package-lock.json     # Exact dependency tree
+├── package.json          # Project metadata, scripts, and dependencies
+├── README.md             # Project documentation
+└── vite.config.js        # Vite build configuration
+```
+
+## 🚀 How to Use
+
+1. Visit the [Live App](https://yugagarwal005.github.io/Notes-App/).
+2. Enter a task or note in the input field.
+3. Click the **Add** button to add the task.
+4. Click the **Delete** icon to remove a task.
+
+## ⚙️ Getting Started Locally
+
+Want to run or modify this project on your own machine? Follow these simple steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YugAgarwal005/Notes-App.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Notes-App
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in your browser
+
+The development server will provide a local URL (typically `http://localhost:5173`) that you can open in your browser.
+
